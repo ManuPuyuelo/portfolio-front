@@ -1,12 +1,11 @@
-import styles from '../styles/Home.module.css';
+import styles from "../styles/Home.module.css";
+import IDComponent from "./IDComponent";
 
 function Home() {
   return (
     <div>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <IDComponent />
       </main>
     </div>
   );
