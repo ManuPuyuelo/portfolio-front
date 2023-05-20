@@ -43,13 +43,15 @@ function IDComponent() {
         </a>
       </div>
       <div className={styles.addButtonBlock}>
-        <button className={styles.addButton}>
-          <FontAwesomeIcon
-            className={styles.addButtonIcon}
-            icon={faAddressBook}
-          />
-          <p className={styles.addButtonText}>Ajouter aux contacts</p>
-        </button>
+        <a href="Flowcontact.vcf" style={{ textDecoration: "none" }}>
+          <button className={styles.addButton}>
+            <FontAwesomeIcon
+              className={styles.addButtonIcon}
+              icon={faAddressBook}
+            />
+            <p className={styles.addButtonText}>Ajouter aux contacts</p>
+          </button>
+        </a>
       </div>
 
       <div className={styles.tabBlock}>
