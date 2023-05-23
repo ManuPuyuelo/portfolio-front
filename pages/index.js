@@ -5,7 +5,8 @@ function Index() {
   return (
     <>
       <Header />
-      <Home />
+      {/* <Home /> */}
+      <IDComponent />
     </>
   );
 }

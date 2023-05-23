@@ -5,7 +5,8 @@ function PortfolioScreen() {
   return (
     <>
       <Header />
-      <Portfolio />
+      {/* <Portfolio /> */}
+      <IDComponent />
     </>
   );
 }
