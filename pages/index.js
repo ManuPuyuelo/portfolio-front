@@ -5,9 +5,9 @@ import IDComponent from "../components/IDComponent";
 function Index() {
   return (
     <>
-      <Header />
       {/* <Home /> */}
       <IDComponent />
+      <Header />
     </>
   );
 }

@@ -30,7 +30,7 @@
   padding: 0;
   display: none;
 }
-.hamburger:click {
+.hamburgerExpanded {
   transform: rotate(0.25turn);
 }
 
@@ -88,11 +88,6 @@
   display: flex;
   padding: 0;
 }
-@media screen and (max-width: 768px) {
-  .navigationMenu ul {
-    display: none;
-  }
-}
 
 .navigationMenu div {
   margin: 0 1rem;
@@ -110,4 +105,37 @@
   display: block;
   width: 100%;
   color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .navigationMenu ul {
+    padding-top: 2vh;
+    position: absolute;
+    top: 8vh;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh);
+    background-color: white;
+    border-top: 1px solid rgb(230, 230, 230);
+    display: none;
+  }
+  .navigationMenu div {
+    text-align: center;
+    margin: 0;
+  }
+
+  .navigationMenu div a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: black;
+  }
+
+  .navigationMenu div:hover {
+    border-bottom: none;
+  }
+  .navigationMenuExpanded ul {
+    display: block;
+  }
 }
