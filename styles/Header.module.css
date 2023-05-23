@@ -30,7 +30,7 @@
   padding: 0;
   display: none;
 }
-.hamburger:hover {
+.hamburger:click {
   transform: rotate(0.25turn);
 }
 
