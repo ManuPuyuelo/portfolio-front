@@ -5,9 +5,9 @@ import IDComponent from "../components/IDComponent";
 function PortfolioScreen() {
   return (
     <>
-      <Header />
       {/* <Portfolio /> */}
       <IDComponent />
+      <Header />
     </>
   );
 }

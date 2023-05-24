@@ -4,8 +4,8 @@ import IDComponent from "../components/IDComponent";
 function ContactScreen() {
   return (
     <>
-      <Header />
       <IDComponent />
+      <Header />
     </>
   );
 }
