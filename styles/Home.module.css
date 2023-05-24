@@ -1,0 +1,88 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcece9;
+  box-sizing: border-box;
+  cursor: inherit;
+}
+
+/*First Section with background image and button*/
+.firstSection {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(255, 255, 255, 0)
+    ),
+    url("../public/home1Pic.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container1 {
+  margin-left: 8vw;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  line-height: 1.5em;
+  color: white;
+}
+
+.heroButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 2em;
+}
+
+.heroButton {
+  width: 10rem;
+  background-color: #fff;
+  border: 0.125rem solid WHITE;
+  border-radius: 0.313rem;
+  color: #000;
+  transition: all 0.4s ease-out;
+  cursor: pointer;
+}
+
+.heroButton:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.heroButton a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: inherit;
+  font-size: 0.8em;
+  padding: 0.625rem;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.heroButton p {
+  margin: 0;
+  padding: 0;
+}
+
+/*Second Section with background image and button*/
+.secondSection {
+  height: 100vh;
+  width: 100vw;
+}

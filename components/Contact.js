@@ -1,4 +1,4 @@
-import styles from "../styles/IDComponent.module.css";
+import styles from "../styles/Contact.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhone,
@@ -7,7 +7,7 @@ import {
   faAddressBook,
 } from "@fortawesome/free-solid-svg-icons";
 
-function IDComponent() {
+function Contact() {
   return (
     <main className={styles.main}>
       <div className={styles.container}>
@@ -86,4 +86,4 @@ function IDComponent() {
   );
 }
 
-export default IDComponent;
+export default Contact;

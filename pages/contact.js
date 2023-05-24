@@ -1,10 +1,10 @@
 import Header from "../components/Header";
-import IDComponent from "../components/IDComponent";
+import Contact from "../components/Contact";
 
 function ContactScreen() {
   return (
     <>
-      <IDComponent />
+      <Contact />
       <Header />
     </>
   );

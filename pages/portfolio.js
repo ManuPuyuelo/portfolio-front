@@ -1,12 +1,12 @@
 import Header from "../components/Header";
 import Portfolio from "../components/Portfolio";
-import IDComponent from "../components/IDComponent";
+import Contact from "../components/Contact";
 
 function PortfolioScreen() {
   return (
     <>
       {/* <Portfolio /> */}
-      <IDComponent />
+      <Contact />
       <Header />
     </>
   );
