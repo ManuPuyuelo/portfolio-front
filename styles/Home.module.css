@@ -81,6 +81,20 @@
   padding: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .heroButton:hover {
+    color: black;
+  }
+
+  .title {
+    font-size: 1em;
+  }
+
+  .heroButtons {
+    flex-direction: column;
+  }
+}
+
 /*Second Section with background image and button*/
 .secondSection {
   height: 100vh;
