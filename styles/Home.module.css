@@ -82,8 +82,18 @@
 }
 
 @media screen and (max-width: 768px) {
+  .heroButton {
+    width: 14rem;
+  }
+
+  .heroButton a {
+    font-size: 1em;
+    letter-spacing: 0.1em;
+  }
+
   .heroButton:hover {
     color: black;
+    background-color: #fff;
   }
 
   .title {
