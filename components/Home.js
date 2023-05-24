@@ -24,7 +24,18 @@ function Home() {
         </div>
       </div>
       <div className={styles.secondSection}>
-        <div className={styles.container2}></div>
+        <div className={styles.container2}>
+          <div className={styles.projectImage1}></div>
+          <div className={styles.projectDescription1}>
+            <h2>L'expérience home cinéma Devialet.</h2>
+            <p>
+              Oubliez tout ce que vous avez vu et entendu jusqu'à présent. En
+              proposant des configurations home-cinéma, conçues pour vous
+              immerger au plus profond du son, Devialet vous embarque dans des
+              expériences audiovisuelles hors du commun.
+            </p>
+          </div>
+        </div>
       </div>
     </main>
   );
