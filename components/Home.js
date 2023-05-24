@@ -5,9 +5,10 @@ function Home() {
     <main className={styles.main}>
       <div className={styles.firstSection}>
         <div className={styles.container1}>
-          <h1 className={styles.title}>
-            Développeur freelance<br></br>7 ans d'XP en Marketing
-          </h1>
+          <h1 className={styles.title}>Développeur Fullstack</h1>
+          <p className={styles.titleText}>
+            JS, HTML, CSS<br></br>React, React Native, Express
+          </p>
           <div className={styles.heroButtons}>
             <div className={styles.heroButton}>
               <a href="/portfolio">

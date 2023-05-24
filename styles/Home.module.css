@@ -36,8 +36,15 @@
   margin: 0;
   padding: 0;
   font-size: 2em;
-  line-height: 1.5em;
+  line-height: 1em;
   color: white;
+}
+
+.titleText {
+  font-size: 1.5em;
+  line-height: 1em;
+  color: white;
+  font-weight: bold;
 }
 
 .heroButtons {
@@ -83,11 +90,11 @@
 
 @media screen and (max-width: 768px) {
   .heroButton {
-    width: 14rem;
+    width: 12rem;
   }
 
   .heroButton a {
-    font-size: 1em;
+    font-size: 0.9em;
     letter-spacing: 0.1em;
   }
 
@@ -98,6 +105,10 @@
 
   .title {
     font-size: 1.5em;
+  }
+
+  .titleText {
+    font-size: 1.2em;
   }
 
   .heroButtons {
