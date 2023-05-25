@@ -15,7 +15,7 @@ function Header() {
 
   const getTitle = () => {
     if (pathname === "/") {
-      return "ACCUEIL";
+      return "";
     } else if (pathname === "/portfolio") {
       return "PORTFOLIO";
     } else if (pathname === "/contact") {

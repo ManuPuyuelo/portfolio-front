@@ -6,16 +6,27 @@ import {
   faEnvelope,
   faAddressBook,
 } from "@fortawesome/free-solid-svg-icons";
+import { Player, Controls } from "@lottiefiles/react-lottie-player";
 
 function Contact() {
   return (
     <main className={styles.main}>
       <div className={styles.container}>
-        <img
-          className={styles.photoID}
-          src="photoManu.jpg"
-          alt="Manu Puyuelo's Avatar"
-        ></img>
+        <div className={styles.photoID}>
+          <Player
+            autoplay
+            loop
+            src=" https://assets4.lottiefiles.com/packages/lf20_z9gwyc2b.json"
+            style={{
+              height: "240px",
+              width: "240px",
+              position: "absolute",
+              top: "-50px",
+              left: "-50px",
+            }}
+          ></Player>
+        </div>
+
         <h1 className={styles.title}>Manu Puyuelo</h1>
         <div className={styles.description}>
           <p className={styles.descriptionText}>

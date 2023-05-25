@@ -26,6 +26,10 @@
 .photoID {
   height: 140px;
   width: 140px;
+  position: relative;
+  background-image: url("../public/photoManu.jpg");
+  background-size: cover;
+  background-position: center;
   border-radius: 50%;
 }
 
