@@ -1,4 +1,5 @@
 import styles from "../styles/Home.module.css";
+import { Player, Controls } from "@lottiefiles/react-lottie-player";
 
 function Home() {
   return (
@@ -25,14 +26,22 @@ function Home() {
       </div>
       <div className={styles.secondSection}>
         <div className={styles.container2}>
-          <div className={styles.projectImage1}></div>
+          <div className={styles.projectImage1}>
+            <Player
+              autoplay
+              loop
+              src="https://assets4.lottiefiles.com/packages/lf20_0sjsnpsr.json"
+              style={{ height: "35vw", width: "35vw" }}
+            ></Player>
+            <div className={styles.projectImage2}></div>
+          </div>
+
           <div className={styles.projectDescription1}>
-            <h2>L'expérience home cinéma Devialet.</h2>
+            <h2>Ourson</h2>
             <p>
-              Oubliez tout ce que vous avez vu et entendu jusqu'à présent. En
-              proposant des configurations home-cinéma, conçues pour vous
-              immerger au plus profond du son, Devialet vous embarque dans des
-              expériences audiovisuelles hors du commun.
+              Ourson est la 1ère app intelligente qui vous donne un coup de
+              patte concernant l’éveil de votre enfant sur 3 aspects :
+              nutrition, suivi du sommeil et activités.
             </p>
           </div>
         </div>

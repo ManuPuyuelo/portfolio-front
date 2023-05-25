@@ -1,4 +1,6 @@
 .main {
+  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +13,8 @@
 /*First Section with background image and button*/
 .firstSection {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
+  max-width: 100%;
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.5),
@@ -28,7 +31,8 @@
 
 .container1 {
   padding: 8vw;
-  width: 100vw;
+  width: 100%;
+  max-width: 100%;
 }
 
 .title {
@@ -120,19 +124,44 @@
 /*Second Section with background image and button*/
 .secondSection {
   height: 90vh;
-  width: 100vw;
+  width: 100%;
+  max-width: 100%;
 }
 
 .container2 {
   padding: 8vw;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .projectImage1 {
-  height: 50vw;
-  width: 50vw;
-  border-radius: 0.5rem;
-  background-image: url("../public/imageOurson.jpg");
+  height: 35vw;
+  width: 35vw;
+  min-height: 35vw;
+  min-width: 35vw;
+  border-radius: 0.3rem;
+  background-image: url("../public/squareBackground.png");
   background-size: contain;
   background-position: center;
+  position: relative;
+}
+
+.projectImage2 {
+  height: 35vw;
+  width: 35vw;
+  min-height: 35vw;
+  min-width: 35vw;
+  border-radius: 0.3rem;
+  background-image: url("../public/squareOursonTransparent.png");
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.projectDescription1 {
+  width: calc(50% - 5rem);
+  padding-left: 5rem;
 }
