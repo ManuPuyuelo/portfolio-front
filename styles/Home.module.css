@@ -170,6 +170,7 @@
 .projectDescription1 p {
   font-size: 1.3em;
   line-height: 1.6em;
+  text-align: justify;
 }
 
 .heroButton2 a {
