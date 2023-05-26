@@ -211,4 +211,8 @@
     font-size: 1.2em;
     line-height: 1.2em;
   }
+  .heroButton2:hover {
+    background-color: white;
+    color: black;
+  }
 }
