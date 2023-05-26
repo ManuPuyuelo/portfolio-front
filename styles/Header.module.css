@@ -95,9 +95,11 @@
 
 @media screen and (max-width: 768px) {
   .navigationMenu ul {
+    margin: 0;
+    padding: 0;
     padding-top: 2vh;
     position: absolute;
-    top: 8vh;
+    top: 10vh;
     left: 0;
     flex-direction: column;
     width: 100%;
