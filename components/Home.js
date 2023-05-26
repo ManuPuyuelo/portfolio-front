@@ -22,7 +22,7 @@ function Home() {
             </div>
             <div className={styles.heroButton}>
               <a href="/contact">
-                <p>CONTACTEZ-MOI</p>
+                <p>ME CONTACTER</p>
               </a>
             </div>
           </div>
