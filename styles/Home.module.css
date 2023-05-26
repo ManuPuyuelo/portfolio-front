@@ -79,9 +79,6 @@
   cursor: inherit;
   font-size: 0.8em;
   padding: 0.625rem;
-  position: relative;
-  box-sizing: border-box;
-  overflow: hidden;
   text-align: center;
   letter-spacing: 0.1em;
 }
@@ -126,6 +123,9 @@
   height: 90vh;
   width: 100%;
   max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container2 {
@@ -133,15 +133,16 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.projectImage0 {
+  height: 40vw;
+  width: 40vw;
 }
 
 .projectImage1 {
-  height: 35vw;
-  width: 35vw;
-  min-height: 35vw;
-  min-width: 35vw;
-  border-radius: 0.3rem;
+  border-radius: 1rem;
   background-image: url("../public/squareBackground.png");
   background-size: contain;
   background-position: center;
@@ -149,19 +150,63 @@
 }
 
 .projectImage2 {
-  height: 35vw;
-  width: 35vw;
-  min-height: 35vw;
-  min-width: 35vw;
-  border-radius: 0.3rem;
   background-image: url("../public/squareOursonTransparent.png");
-  background-size: contain;
-  background-position: center;
   position: absolute;
   top: 0;
   left: 0;
 }
 .projectDescription1 {
-  width: calc(50% - 5rem);
-  padding-left: 5rem;
+  width: calc(50% -8rem);
+  padding-left: 8rem;
+}
+
+.projectDescription1 h2 {
+  font-family: "Bryndan Write";
+  font-size: 5em;
+  margin: 0;
+  padding: 0;
+}
+
+.projectDescription1 p {
+  font-size: 1.3em;
+  line-height: 1.6em;
+}
+
+.heroButton2 a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.heroButton2:hover {
+  background-color: transparent;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .container2 {
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+  }
+  .projectImage0 {
+    height: 60vw;
+    width: 60vw;
+  }
+  .projectDescription1 {
+    width: calc(100%);
+    padding-left: 0;
+  }
+
+  .projectDescription1 h2 {
+    font-size: 4em;
+    text-align: center;
+  }
+
+  .projectDescription1 p {
+    font-size: 1.2em;
+    line-height: 1em;
+  }
 }

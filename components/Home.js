@@ -1,5 +1,9 @@
 import styles from "../styles/Home.module.css";
+
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   return (
@@ -26,14 +30,24 @@ function Home() {
       </div>
       <div className={styles.secondSection}>
         <div className={styles.container2}>
-          <div className={styles.projectImage1}>
+          <div
+            className={[styles.projectImage0, styles.projectImage1].join(" ")}
+          >
             <Player
               autoplay
               loop
-              src="https://assets4.lottiefiles.com/packages/lf20_0sjsnpsr.json"
-              style={{ height: "35vw", width: "35vw" }}
+              speed={1}
+              src="https://assets2.lottiefiles.com/packages/lf20_sg5agyvh.json"
+              className={styles.projectImage0}
             ></Player>
-            <div className={styles.projectImage2}></div>
+
+            <div
+              className={[
+                styles.projectImage0,
+                styles.projectImage1,
+                styles.projectImage2,
+              ].join(" ")}
+            ></div>
           </div>
 
           <div className={styles.projectDescription1}>
@@ -43,6 +57,16 @@ function Home() {
               patte concernant l’éveil de votre enfant sur 3 aspects :
               nutrition, suivi du sommeil et activités.
             </p>
+            <div className={styles.heroButtons}>
+              <div
+                className={[styles.heroButton, styles.heroButton2].join(" ")}
+              >
+                <a href="/contact">
+                  <p>DÉCOUVRIR </p>
+                  <FontAwesomeIcon icon={faChevronRight} />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
