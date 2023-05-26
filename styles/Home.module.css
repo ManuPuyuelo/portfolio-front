@@ -38,7 +38,7 @@
 .title {
   margin: 0;
   padding: 0;
-  font-size: 2em;
+  font-size: 3em;
   line-height: 1em;
   color: white;
 }
@@ -104,7 +104,7 @@
   }
 
   .title {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   .titleText {
@@ -129,7 +129,8 @@
 }
 
 .container2 {
-  padding: 8vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
   display: flex;
   flex-direction: row;
   align-items: center;
