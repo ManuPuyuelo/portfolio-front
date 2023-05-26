@@ -192,8 +192,8 @@
     justify-content: center;
   }
   .projectImage0 {
-    height: 60vw;
-    width: 60vw;
+    height: 70vw;
+    width: 70vw;
   }
   .projectDescription1 {
     width: calc(100%);
@@ -207,6 +207,6 @@
 
   .projectDescription1 p {
     font-size: 1.2em;
-    line-height: 1em;
+    line-height: 1.2em;
   }
 }
