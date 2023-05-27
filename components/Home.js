@@ -70,6 +70,9 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className={styles.thirdSection}>
+        <div className={styles.container3}></div>
+      </div>
     </main>
   );
 }

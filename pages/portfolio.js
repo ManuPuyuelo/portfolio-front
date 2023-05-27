@@ -5,8 +5,7 @@ import Contact from "../components/Contact";
 function PortfolioScreen() {
   return (
     <>
-      {/* <Portfolio /> */}
-      <Contact />
+      <Portfolio />
       <Header />
     </>
   );
