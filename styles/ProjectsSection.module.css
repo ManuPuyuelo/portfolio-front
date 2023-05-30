@@ -74,7 +74,8 @@
   .projectTextRight {
     margin: 0;
     padding: 0;
-    padding-bottom: 8vw;
+    padding-top: 10vh;
+    padding-bottom: 6vh;
   }
 }
 
@@ -100,7 +101,7 @@
   }
   .projectTextLeft,
   .projectTextRight {
-    padding-top: 4vw;
-    padding-bottom: 4vw;
+    padding-top: 10vh;
+    padding-bottom: 4vh;
   }
 }
