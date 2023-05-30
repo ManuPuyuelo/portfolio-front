@@ -234,8 +234,8 @@
 }
 @media screen and (max-width: 530px) {
   .cardFlipper {
-    height: 90vw;
-    width: 90vw;
+    height: 95vw;
+    width: 95vw;
   }
   .cardGithubButtonsGroup {
     margin-bottom: 0.5em;

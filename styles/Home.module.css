@@ -201,16 +201,16 @@
 
 @media screen and (max-width: 530px) {
   .projectSection {
-    padding: 5vw;
+    padding: 2vw;
   }
   .projectContainerRight {
     padding-left: 0;
-    width: 90vw;
+    width: 95vw;
   }
   .projectContainerLeft {
     padding-right: 0;
     gap: 1em;
-    width: 90vw;
+    width: 95vw;
   }
   .projectTextLeft p,
   .projectTextRight p {
@@ -219,7 +219,7 @@
   }
   .projectTextLeft,
   .projectTextRight {
-    padding-top: 2vw;
+    padding-top: 6vw;
     padding-bottom: 4vw;
   }
 }
