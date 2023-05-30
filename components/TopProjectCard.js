@@ -9,27 +9,40 @@ function TopProjectCard(props) {
   return (
     <div className={`${styles.cardFlipper} ${isActive && styles.active}`}>
       {!isActive ? (
-        <div
-          className={styles.cardContainerFront}
-          style={{ backgroundColor: "#FFDA57" }}
-          // style={{ backgroundImage: `url(${props.pictureURL})` }}
-        >
-          <div className={styles.cardTextGroup}>
-            <p className={styles.cardTextTitle}>{props.title}</p>
-            <p className={styles.cardTextDescription}>
-              {props.shortDescription}
-            </p>
-          </div>
-          <div className={styles.cardButtonsGroup}>
+        <div>
+          <div
+            className={[styles.projectImage0, styles.projectImage1].join(" ")}
+          >
+            <Player
+              autoplay
+              loop
+              speed={1}
+              src="https://assets2.lottiefiles.com/packages/lf20_sg5agyvh.json"
+              className={styles.projectImage0}
+            ></Player>
             <div
-              className={styles.cardSecondaryButton}
-              onClick={() => setIsActive(!isActive)}
-            >
-              + DE DÉTAILS
+              className={[styles.projectImage0, styles.projectImage2].join(" ")}
+            ></div>
+          </div>
+
+          <div className={styles.cardContainerFront}>
+            <div className={styles.cardTextGroup}>
+              <p className={styles.cardTextTitle}>{props.title}</p>
+              <p className={styles.cardTextDescription}>
+                {props.shortDescription}
+              </p>
             </div>
-            <a href={props.githubBackLink} className={styles.cardGithubLink}>
-              <div className={styles.cardPrimaryButton}>Y ALLER</div>
-            </a>
+            <div className={styles.cardButtonsGroup}>
+              <div
+                className={styles.cardSecondaryButton}
+                onClick={() => setIsActive(!isActive)}
+              >
+                + DE DÉTAILS
+              </div>
+              <a href={props.githubBackLink} className={styles.cardGithubLink}>
+                <div className={styles.cardPrimaryButton}>Y ALLER</div>
+              </a>
+            </div>
           </div>
         </div>
       ) : (
