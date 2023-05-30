@@ -1,0 +1,106 @@
+.firstSection {
+  height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(255, 255, 255, 0)
+    ),
+    url("../public/home1Pic.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.firstContainer {
+  padding: 8vw;
+  width: 100%;
+  max-width: 100%;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+  line-height: 1em;
+  color: white;
+}
+
+.titleText {
+  font-size: 1.5em;
+  line-height: 1em;
+  color: white;
+  font-weight: bold;
+}
+
+.heroButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 1.3em;
+  margin-top: 2em;
+}
+
+.heroButton {
+  width: 12rem;
+  background-color: #fff;
+  border: 0.13rem solid WHITE;
+  border-radius: 0.3rem;
+  color: #000;
+  transition: all 0.4s ease-out;
+  cursor: pointer;
+}
+
+.heroButton:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.heroButton a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: inherit;
+  padding: 0.625rem;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.heroButton p {
+  margin: 0;
+  padding: 0;
+  font-size: 1em !important;
+}
+
+@media screen and (max-width: 768px) {
+  .heroButton {
+    width: 12rem;
+  }
+
+  .heroButton a {
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+  }
+
+  .heroButton:hover {
+    color: black;
+    background-color: #fff;
+  }
+
+  .title {
+    font-size: 2.5em;
+  }
+
+  .titleText {
+    font-size: 1.2em;
+  }
+
+  .heroButtons {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+}
