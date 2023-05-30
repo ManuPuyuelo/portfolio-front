@@ -106,6 +106,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
 }
 .cardGithubButton {
   border: 2px solid #fcece9;
@@ -114,13 +117,6 @@
   border: 2px solid white;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-}
-.cardGithubButton p,
-.cardPrimaryButton p,
-.cardSecondaryButton p {
-  margin: 0;
-  padding: 0;
-  font-size: 1em !important;
 }
 
 .cardTechnoLogosGroup {
@@ -221,24 +217,16 @@
 @media screen and (max-width: 700px) {
   .cardTextTitle {
     font-size: 2em;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
   }
 
   .cardTextDescription {
     font-size: 0.8em;
     line-height: 0.8em;
-    margin: 0;
-    padding: 0;
   }
 
   .cardSubtitle {
     font-size: 1em;
     line-height: 1em;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
   }
   .cardTechnoLogo {
     height: 30px;
@@ -249,10 +237,41 @@
     height: 90vw;
     width: 90vw;
   }
-  .cardGithubButton {
-    height: 2rem;
+  .cardGithubButtonsGroup {
+    margin-bottom: 0.5em;
   }
+
+  .cardPrimaryButton,
+  .cardSecondaryButton {
+    width: 6rem;
+    height: 3rem;
+    font-size: 0.8em;
+  }
+  .cardGithubButton {
+    width: 6rem;
+    height: 2.5rem;
+    font-size: 0.8em;
+  }
+
   .cardTechnoLogo {
     height: 25px;
+  }
+  .cardContainerFront,
+  .cardContainerBack {
+    padding: 4vw;
+  }
+
+  .cardTextTitle {
+    font-size: 1.5em;
+  }
+
+  .cardTextDescription {
+    font-size: 0.8em;
+    line-height: 0.8em;
+  }
+
+  .cardSubtitle {
+    font-size: 1em;
+    line-height: 1em;
   }
 }
