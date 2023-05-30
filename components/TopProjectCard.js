@@ -27,7 +27,9 @@ function TopProjectCard(props) {
 
           <div className={styles.cardContainerFront}>
             <div className={styles.cardTextGroup}>
-              <p className={styles.cardTextTitle}>{props.title}</p>
+              <p className={[styles.cardTextTitle, styles.ourson].join(" ")}>
+                {props.title}
+              </p>
               <p className={styles.cardTextDescription}>
                 {props.shortDescription}
               </p>
@@ -52,7 +54,9 @@ function TopProjectCard(props) {
       ) : (
         <div className={styles.cardContainerBack}>
           <div className={styles.cardTextGroup}>
-            <p className={styles.cardTextTitle}>{props.title}</p>
+            <p className={[styles.cardTextTitle, styles.ourson].join(" ")}>
+              {props.title}
+            </p>
             <p className={styles.cardTextDescription}>
               {props.shortDescription}
             </p>

@@ -53,11 +53,17 @@
   justify-content: space-around;
 }
 
-.cardTextTitle {
+.cardTextTitle,
+.ourson {
   font-size: 2.5em;
   font-weight: bold;
   margin: 0;
   padding: 0;
+}
+
+.ourson {
+  font-family: "Bryndan Write";
+  font-size: 3em;
 }
 
 .cardTextDescription {
@@ -167,26 +173,23 @@
 }
 
 @media screen and (max-width: 1390px) {
-  .cardTextTitle {
+  .cardTextTitle,
+  .ourson {
     font-size: 2em;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
+  }
+
+  .ourson {
+    font-size: 2.5em;
   }
 
   .cardTextDescription {
     font-size: 0.8em;
     line-height: 0.8em;
-    margin: 0;
-    padding: 0;
   }
 
   .cardSubtitle {
     font-size: 1em;
     line-height: 1em;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -194,31 +197,34 @@
     height: 80vw;
     width: 80vw;
   }
-  .cardTextTitle {
+
+  .cardTextTitle,
+  .ourson {
     font-size: 2.5em;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
+  }
+
+  .ourson {
+    font-size: 3em;
   }
 
   .cardTextDescription {
     font-size: 1em;
     line-height: 1em;
-    margin: 0;
-    padding: 0;
   }
 
   .cardSubtitle {
     font-size: 1.5em;
     line-height: 1.2em;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
   }
 }
 @media screen and (max-width: 700px) {
-  .cardTextTitle {
+  .cardTextTitle,
+  .ourson {
     font-size: 2em;
+  }
+
+  .ourson {
+    font-size: 2.5em;
   }
 
   .cardTextDescription {
@@ -268,9 +274,14 @@
     padding: 4vw;
   }
 
-  .cardTextTitle {
+  .cardTextTitle,
+  .ourson {
     font-size: 2em;
     margin-bottom: 0.2em;
+  }
+
+  .ourson {
+    font-size: 3em;
   }
 
   .cardTextDescription {

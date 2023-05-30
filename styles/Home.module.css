@@ -217,6 +217,7 @@
   .projectTextRight p {
     font-size: 2em;
     line-height: 0.8em;
+    text-align: center;
   }
   .projectTextLeft,
   .projectTextRight {
