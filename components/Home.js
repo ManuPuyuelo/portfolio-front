@@ -21,6 +21,7 @@ function Home() {
       ],
       githubFrontLink: "https://github.com/ManuPuyuelo/freshnews-frontend",
       githubBackLink: "https://github.com/ManuPuyuelo/freshnews-backend",
+      URL: "https://freshnews.manupuyuelo.com/",
       technologies: [
         `/card/technologo/React.png`,
         `/card/technologo/CSS.png`,
@@ -43,6 +44,7 @@ function Home() {
       ],
       githubFrontLink: "https://github.com/ManuPuyuelo/mymoviz-frontend",
       githubBackLink: "https://github.com/ManuPuyuelo/mymoviz-backend",
+      URL: "https://mymoviz.manupuyuelo.com/",
       technologies: [
         `/card/technologo/React.png`,
         `/card/technologo/CSS.png`,
@@ -64,6 +66,7 @@ function Home() {
       ],
       githubFrontLink: "https://github.com/ManuPuyuelo/123soleil-frontend",
       githubBackLink: "https://github.com/ManuPuyuelo/123soleil-backend",
+      URL: "https://123soleil.manupuyuelo.com/",
       technologies: [
         `/card/technologo/HTML.png`,
         `/card/technologo/CSS.png`,
@@ -85,6 +88,7 @@ function Home() {
       ],
       githubFrontLink: "https://github.com/ManuPuyuelo/sweetweet-frontend",
       githubBackLink: "https://github.com/ManuPuyuelo/sweetweet-backend",
+      URL: "https://sweetweet.manupuyuelo.com/",
       technologies: [
         `/card/technologo/React.png`,
         `/card/technologo/CSS.png`,
@@ -107,6 +111,7 @@ function Home() {
       ],
       githubFrontLink: "https://github.com/ManuPuyuelo/trainlife-frontend",
       githubBackLink: "https://github.com/ManuPuyuelo/trainlife-backend",
+      URL: "https://trainlife.manupuyuelo.com/",
       technologies: [
         `/card/technologo/HTML.png`,
         `/card/technologo/CSS.png`,
@@ -133,6 +138,7 @@ function Home() {
     ],
     githubFrontLink: "https://github.com/ManuPuyuelo/ourson.app-frontend",
     githubBackLink: "https://github.com/ManuPuyuelo/ourson.app-backend-",
+    URL: "https://ourson.app/",
     technologies: [
       `/card/technologo/ReactNative.png`,
       `/card/technologo/CSS.png`,

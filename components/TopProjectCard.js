@@ -39,7 +39,11 @@ function TopProjectCard(props) {
               >
                 + DE DÉTAILS
               </div>
-              <a href={props.githubBackLink} className={styles.cardGithubLink}>
+              <a
+                href={props.URL}
+                target="_blank"
+                className={styles.cardGithubLink}
+              >
                 <div className={styles.cardPrimaryButton}>Y ALLER</div>
               </a>
             </div>
@@ -88,7 +92,11 @@ function TopProjectCard(props) {
             >
               - DE DÉTAILS
             </div>
-            <a href={props.githubBackLink} className={styles.cardGithubLink}>
+            <a
+              href={props.URL}
+              target="_blank"
+              className={styles.cardGithubLink}
+            >
               <div className={styles.cardPrimaryButton}>Y ALLER</div>
             </a>
           </div>
