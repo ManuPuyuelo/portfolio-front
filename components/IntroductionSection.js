@@ -10,7 +10,7 @@ function IntroductionSection() {
         </p>
         <div className={styles.heroButtons}>
           <div className={styles.heroButton}>
-            <a href="/portfolio">
+            <a href="#projects">
               <p>DERNIERS PROJETS</p>
             </a>
           </div>

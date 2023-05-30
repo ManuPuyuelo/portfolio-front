@@ -5,7 +5,7 @@ import TopProjectCard from "../components/TopProjectCard";
 import firstProject from "../variables/firstProject";
 import projects from "../variables/projects";
 
-function Home() {
+function ProjectsSection() {
   const topProject = <TopProjectCard {...firstProject} />;
 
   let leftProjects = [];
@@ -24,7 +24,7 @@ function Home() {
   });
 
   return (
-    <div className={styles.projectSection}>
+    <div className={styles.projectSection} id="projects">
       <div className={styles.projectContainerLeft}>
         <div className={styles.projectTextLeft}>
           <p>Découvrez mes</p>
@@ -46,4 +46,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default ProjectsSection;

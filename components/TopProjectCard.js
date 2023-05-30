@@ -5,7 +5,6 @@ import { useState } from "react";
 
 function TopProjectCard(props) {
   const [isActive, setIsActive] = useState(false);
-  console.log(props.pictureURL);
   return (
     <div className={`${styles.cardFlipper} ${isActive && styles.active}`}>
       {!isActive ? (
