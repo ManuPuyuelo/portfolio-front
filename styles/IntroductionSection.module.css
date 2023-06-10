@@ -7,7 +7,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(255, 255, 255, 0)
     ),
-    url("../public/home1Pic.jpeg");
+    url("../public/home1Pic.webp");
   background-size: cover;
   background-position: center;
   display: flex;

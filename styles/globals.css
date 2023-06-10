@@ -1,11 +1,15 @@
 @font-face {
   font-family: "Modern Love";
   src: url("../public/ModernLoveFont.woff2") format("woff2");
+
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Bryndan Write";
   src: url("../public/Bryndan_Write.woff2") format("woff2");
+
+  font-display: swap;
 }
 
 body {
