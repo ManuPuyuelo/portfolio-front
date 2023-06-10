@@ -12,7 +12,6 @@ function IntroductionSection() {
           className={styles.heroButtons}
           role="button"
           aria-label="Derniers projets"
-          tabIndex={1}
         >
           <div className={styles.heroButton}>
             <a href="#projects">
@@ -23,7 +22,6 @@ function IntroductionSection() {
             className={styles.heroButton}
             role="button"
             aria-label="Me contacter"
-            tabIndex={2}
           >
             <a href="/contact">
               <p>ME CONTACTER</p>
