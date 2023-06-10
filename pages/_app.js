@@ -41,7 +41,6 @@ function App({ Component, pageProps }) {
           content="https://www.manupuyuelo.com/_next/static/media/photoManu.78e740fd.jpg"
         />
         <title>Manu Puyuelo - Développeur FullStack</title>
-        <meta lang="fr" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
