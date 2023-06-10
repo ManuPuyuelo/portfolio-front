@@ -65,6 +65,8 @@ function Header() {
               onClick={() => {
                 setIsNavExpanded(!isNavExpanded);
               }}
+              role="button"
+              aria-label="Ouvrir le menu déroulant"
             >
               <FontAwesomeIcon className={styles.icons} icon={faBars} />
             </button>
