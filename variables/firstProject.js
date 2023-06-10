@@ -2,7 +2,7 @@ const firstProject = {
   title: "Ourson",
   shortDescription:
     "App mobile de suivi de nutrition durant l'éveil de l'enfant",
-  pictureURL: `/card/squareOursonTransparent.png`,
+  pictureURL: `/card/squareOursonTransparent.webp`,
   longDescription: [
     "Accès à un menu complet pour la semaine",
     "Trouver une recette avec ce que l’on a chez soi",
@@ -15,12 +15,12 @@ const firstProject = {
   githubBackLink: "https://github.com/ManuPuyuelo/ourson.app-backend-",
   URL: "https://ourson.app/",
   technologies: [
-    `/card/technologo/ReactNative.png`,
-    `/card/technologo/CSS.png`,
-    `/card/technologo/Javascript.png`,
-    `/card/technologo/Node.png`,
-    `/card/technologo/Express.png`,
-    `/card/technologo/MongoDB.png`,
+    `/card/technologo/ReactNative.webp`,
+    `/card/technologo/CSS.webp`,
+    `/card/technologo/Javascript.webp`,
+    `/card/technologo/Node.webp`,
+    `/card/technologo/Express.webp`,
+    `/card/technologo/MongoDB.webp`,
   ],
 };
 
