@@ -19,6 +19,7 @@ function App({ Component, pageProps }) {
           }}
         />
         <title>Manu Puyuelo</title>
+        <meta lang="fr" />
       </Head>
       {/* Code du Google Tag Manager à la balise <body> */}
       <div
