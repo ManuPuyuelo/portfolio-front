@@ -22,6 +22,8 @@ function ProjectCard(props) {
             <div
               className={styles.cardSecondaryButton}
               onClick={() => setIsActive(!isActive)}
+              role="button"
+              aria-label="Plus de détails"
             >
               + DE DÉTAILS
             </div>
@@ -30,7 +32,13 @@ function ProjectCard(props) {
               target="_blank"
               className={styles.cardGithubLink}
             >
-              <div className={styles.cardPrimaryButton}>Y ALLER</div>
+              <div
+                className={styles.cardPrimaryButton}
+                role="button"
+                aria-label="Aller sur la page du projet"
+              >
+                Y ALLER
+              </div>
             </a>
           </div>
         </div>
@@ -74,6 +82,8 @@ function ProjectCard(props) {
             <div
               className={styles.cardSecondaryButton}
               onClick={() => setIsActive(!isActive)}
+              role="button"
+              aria-label="Moins de détails"
             >
               - DE DÉTAILS
             </div>
@@ -82,7 +92,13 @@ function ProjectCard(props) {
               target="_blank"
               className={styles.cardGithubLink}
             >
-              <div className={styles.cardPrimaryButton}>Y ALLER</div>
+              <div
+                className={styles.cardPrimaryButton}
+                role="button"
+                aria-label="Aller sur la page du projet"
+              >
+                Y ALLER
+              </div>
             </a>
           </div>
         </div>
