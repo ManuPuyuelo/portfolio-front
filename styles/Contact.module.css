@@ -124,6 +124,9 @@
 
 .tabBlock {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .tab {
@@ -141,7 +144,6 @@
   box-shadow: rgb(0 0 0 / 10%) 0px 3px 30px 0px;
   background: rgb(255, 255, 255);
   padding: 8px;
-  margin-bottom: 25px;
 }
 
 .objectPreview {

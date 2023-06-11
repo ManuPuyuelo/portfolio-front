@@ -32,9 +32,8 @@ function Contact() {
           <p className={styles.descriptionText}>
             💻 ex-DG @Vizzit
             <br></br>🎓 Diplômé d'emlyon business school
-            <br></br>💼 Expérience de 7 ans en Marketing
             <br></br>🚀 Formé par LaCapsule: JS HTML CSS
-            <br></br>🔮 Passionné de nouvelles tech
+            <br></br>💼 Expérience de 7 ans en Marketing
           </p>
         </div>
         <div className={styles.actionsButtons}>
@@ -89,6 +88,15 @@ function Contact() {
                 className={styles.objectPreview}
               ></img>
               <p className={styles.tabText}>LinkedIn</p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/ManuPuyuelo"
+            style={{ textDecoration: "none" }}
+          >
+            <div className={styles.tab}>
+              <img src="github-mark.svg" className={styles.objectPreview}></img>
+              <p className={styles.tabText}>Github</p>
             </div>
           </a>
         </div>
