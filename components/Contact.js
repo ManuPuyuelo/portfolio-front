@@ -53,8 +53,7 @@ END:VCARD`;
             </span>
             <br></br>
             <br></br>
-            👨‍🎓 Diplômé d'emlyon business school
-            <br></br>👨‍🎓 Diplômé de La Capsule
+            👨‍🎓 Diplômé d'emlyon BS & La Capsule
             <br></br>
             💼 7 ans d’expériences Produit & Marketing
           </p>
