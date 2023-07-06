@@ -10,18 +10,20 @@ import { Player, Controls } from "@lottiefiles/react-lottie-player";
 
 function Contact() {
   const vCardContent = `BEGIN:VCARD
-  VERSION:3.0
-  FN:Manu Puyuelo
-  N:Puyuelo;Manu;;;
-  UID:c875f339-1cf3-4ab8-af80-181ce6eb0ebb
-  EMAIL;type=PREF:puyuelo.m@gmail.com
-  TEL;TYPE=CELL:+33683519163
-  URL:https://manupuyuelo.com
-  PHOTO;VALUE=URL;TYPE=JPEG:https://res.cloudinary.com/djfrwyodt/image/upload/v1688650433/photoManu_ks26wf.jpg
-  END:VCARD
-  `;
+VERSION:3.0
+FN:Manu Puyuelo
+N:Puyuelo;Manu;;;
+UID:c875f339-1cf3-4ab8-af80-181ce6eb0ebb
+EMAIL;type=PREF:puyuelo.m@gmail.com
+TEL;TYPE=CELL:+33683519163
+URL:https://manupuyuelo.com
+PHOTO;VALUE=URL;TYPE=JPEG:https://res.cloudinary.com/djfrwyodt/image/upload/v1688650433/photoManu_ks26wf.jpg
+END:VCARD`;
 
-  const vCardDataUri = `data:text/vcard;base64,${btoa(vCardContent)}`;
+  const vCardDataUri = `data:text/vcard;charset=utf-8,${encodeURIComponent(
+    vCardContent
+  )}`;
+
   console.log(vCardDataUri);
   return (
     <main className={styles.main}>
