@@ -30,10 +30,16 @@ function Contact() {
         <h1 className={styles.title}>Manu Puyuelo</h1>
         <div className={styles.description}>
           <p className={styles.descriptionText}>
-            💻 ex-DG @Vizzit
-            <br></br>🎓 Diplômé d'emlyon business school
-            <br></br>🚀 Formé par LaCapsule: JS HTML CSS
-            <br></br>💼 Expérience de 7 ans en Marketing
+            <span style={{ fontWeight: "bold" }}>👨‍💻 Développeur Fullstack</span>
+            <span style={{ fontStyle: "italic" }}>
+              <br></br>JavaScript, HTML5, CSS3, React, React Native
+              <br></br> Node.js, Express, MongoDB
+            </span>
+            <br></br>
+            <br></br>
+            👨‍🎓 Diplômé d'emlyon business school & La Capsule
+            <br></br>
+            💼 7 ans d’expériences Produit & Marketing
           </p>
         </div>
         <div className={styles.actionsButtons}>
@@ -78,6 +84,7 @@ function Contact() {
               <p className={styles.tabText}>Curriculum Vitae</p>
             </div>
           </a>
+
           <a
             href="https://www.linkedin.com/in/puyuelomanu/?originalSubdomain=fr"
             style={{ textDecoration: "none" }}

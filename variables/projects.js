@@ -2,7 +2,8 @@ const projects = [
   {
     title: "Freshnews",
     shortDescription: "Site web & mobile d’actualité en temps réel",
-    pictureURL: "/card/Freshnews.webp",
+    pictureURL:
+      "https://res.cloudinary.com/djfrwyodt/image/upload/q_auto/v1688650130/Freshnews_jahy2f.webp",
     longDescription: [
       "Flux d’info via API : newsapi",
       "Selection du flux d’info de The Verge",
@@ -25,7 +26,8 @@ const projects = [
   {
     title: "Mymoviz",
     shortDescription: "Webapp de suivi de ses films préférés",
-    pictureURL: "/card/Mymoviz.webp",
+    pictureURL:
+      "https://res.cloudinary.com/djfrwyodt/image/upload/q_auto/v1688650130/Mymoviz_za5nzm.webp",
     longDescription: [
       "Flux de films via API : themoviedb",
       "Possibilité de créer une wishlist",
@@ -47,7 +49,7 @@ const projects = [
   {
     title: "123Soleil",
     shortDescription: "Site web de suivi météorologique",
-    pictureURL: `/card/123soleil.webp`,
+    pictureURL: `https://res.cloudinary.com/djfrwyodt/image/upload/q_auto/v1688650130/123soleil_udgzke.webp`,
     longDescription: [
       "Flux météo via API : openweathermap",
       "Possibilité d’ajout de villes",
@@ -69,7 +71,8 @@ const projects = [
   {
     title: "Sweetweet",
     shortDescription: "Webapp sociale d’échange d’opinion",
-    pictureURL: "/card/Sweetweet.webp",
+    pictureURL:
+      "https://res.cloudinary.com/djfrwyodt/image/upload/q_auto/v1688650130/Sweetweet_qlrexl.webp",
     longDescription: [
       "Possibilité de s’inscrire / se connecter",
       "Possibilité de voir les tweets échangés",
@@ -92,7 +95,7 @@ const projects = [
   {
     title: "Trainlife",
     shortDescription: "Site web & mobile de réservation de train",
-    pictureURL: `/card/Trainlife.webp`,
+    pictureURL: `https://res.cloudinary.com/djfrwyodt/image/upload/q_auto/v1688650129/Trainlife_cdezwm.webp`,
     longDescription: [
       "Possibilité de rechercher un train",
       "Possibilité de selection du trajet",

@@ -2,7 +2,7 @@ const firstProject = {
   title: "Ourson",
   shortDescription:
     "App mobile de suivi de nutrition durant l'éveil de l'enfant",
-  pictureURL: `/card/squareOursonTransparent.webp`,
+  pictureURL: `https://res.cloudinary.com/djfrwyodt/image/upload/q_auto/v1688650130/squareOursonTransparent_x3oumq.webp`,
   longDescription: [
     "Accès à un menu complet pour la semaine",
     "Trouver une recette avec ce que l’on a chez soi",

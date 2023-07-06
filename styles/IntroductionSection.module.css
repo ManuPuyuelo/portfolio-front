@@ -7,7 +7,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(255, 255, 255, 0)
     ),
-    url("../public/home1Pic.webp");
+    url("https://res.cloudinary.com/djfrwyodt/image/upload/q_auto/v1688649962/home1Pic_dwzcuw.webp");
   background-size: cover;
   background-position: center;
   display: flex;
